@@ -31,11 +31,11 @@ class Home extends Component {
     render() {
         return (
           <div>
-            <Nav score={this.state.score} topScore={this.state.topScore} />
-            <Header />
+            <NavBar score={this.state.score} topScore={this.state.topScore} />
+            <Jumbotron />
             <Container>
               {this.state.data.map(item => (
-                <ClickItem
+                <Card
                   key={item.id}
                   id={item.id}
                   shake={!this.state.score && this.state.topScore}
