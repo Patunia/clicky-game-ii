@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import "./Scores.css";
 
 class Scores extends Component {

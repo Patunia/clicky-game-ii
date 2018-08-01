@@ -2,7 +2,7 @@ import React from "react";
 import Scores from "../Scores";
 import "./NavBar.css";
 
-const NavBar = (props) => {
+const NavBar = props => (
   <nav className="navbar">
     <ul>
       <li className="brand">
@@ -16,4 +16,4 @@ const NavBar = (props) => {
   </nav>
 );
 
- module export.NavBar
+export default NavBar;
