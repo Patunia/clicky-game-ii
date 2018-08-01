@@ -36,11 +36,11 @@ class Home extends Component {
             <Container>
               {this.state.data.map(item => (
                 <Card
-                  key={item.id}
-                  id={item.id}
-                  shake={!this.state.score && this.state.topScore}
-                  handleClick={this.handleItemClick}
-                  image={item.image}
+                key = {turtle.id}
+                id = {turtle.id}
+                url = {turtle.url}
+                imgClickFunc = {this.imgClickFunc}
+                name ={turtle.name}
                 />
               ))}
             </Container>
